@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Coding Club</h1>
+    <h2>Upcoming Events</h2>
+    <pre>           Club Events</pre>
+    <table border="2">
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>HTML Workshop</td>
+           <td>12 Nov</td>
+           <td>Lab 1</td> 
+
+        </tr>
+        <tr>
+            <td>Hackathon</td>
+            <td>20 Nov</td>
+            <td>Seminar Hall</td>
+
+
+        </tr>
+        <tr >
+            <td colspan="3">Total events:2</td>
+
+        </tr>
+    </table>
+    <h1>Register</h1>
+    <form action="register">
+            <label for="name">Name:</label>
+             <input type="text " id="name" placeholder="Your name" required>
+            <br>
+             <label for="EMAIL">Email:</label>
+             <input type="email" id="EMAIL">
+             <br>
+             <label for="password">Password:</label>
+             <input type="password" id="password">
+             <br>
+             <label for="date">Date of birth:</label>
+             <input type="date" id="date">
+             <br>
+             <label for="number">Phone:</label>
+             <input type="tel" id="number">
+             <br>
+             <p>
+                Gender:
+                <label for="radio">Male</label>
+                <input type="radio" id="radio">
+                <label for="radio">Female</label>
+             </p>
+             <br>
+             <p>
+                Interests:
+                <label for="web">Web</label>
+                <input type="checkbox" id="web">
+                <label for="DSA">DSA</label>
+                <input type="checkbox" id="DSA">
+             </p>
+             <br>
+             <p>
+                <label for="branch">Branch:</label>
+                <select name="Branch" id="branch">
+               <option >BCA</option>
+                <option > B.TECH</option>
+
+                </select>
+                
+             </p>
+             <label for="msg">Why do you want to join?</label>
+             <br>
+             <textarea name="msg" id="msg" row="3" cols="30"></textarea>
+              <br>
+              <button type ="submit">register</button>
+             
+
+             
+
+    </form>
+
+    
+</body>
+</html>
